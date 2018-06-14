@@ -1,0 +1,10 @@
+body { 
+  padding-top: 70px; 
+  padding-bottom: 50px;
+}
+
+td, th {
+  padding: 10px;
+}
+
+table {border-spacing: 2px;}
