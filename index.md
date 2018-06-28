@@ -14,7 +14,7 @@ reg: Registration
 
 # Scottish Programming Languages Seminar (SPLS)
 
-## {{ page.uni }} , {{ page.month }} {{ page.year }}
+## {{ page.uni }}, {{ page.day }} {{ page.month }} {{ page.year }}
 
 ## About SPLS
 
