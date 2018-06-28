@@ -2,7 +2,7 @@
 title: SPLS Oct '18
 layout: default
 uni: University of Strathclyde
-day: XX
+day: 03
 month: October
 year: 2018
 about: About SPLS
