@@ -32,6 +32,19 @@ via the [SPLS Mailing List](https://mr1.dcs.gla.ac.uk/mailman/listinfo/spls).
 12:00--17:45, {{ page.day }} {{ page.month }}, {{ page.uni }}. Building and room to be announced.
 
 
+## Abstracts
+
+Please send abstracts for talks to [stuart.gale@strath.ac.uk](mailto:stuart.gale@strath.ac.uk)
+
+
+## Registration
+
+Please add your name to the
+[Doodle poll](https://doodle.com/poll/dfufkg7y6qb6psvp) to
+register. Any dietary requirements should be made as a comment on the
+doodle poll!
+
+
 ## Programme
 
 |When   | What |
@@ -50,19 +63,9 @@ via the [SPLS Mailing List](https://mr1.dcs.gla.ac.uk/mailman/listinfo/spls).
 | 17.45 | Pub |
 
 
-## Abstracts
-
-To be announced
-
-
-## Registration
-
-Registration will open nearer {{ page.day }} {{ page.month }}.
-
-
 ## Organizers
 
-* [Stuart Gale](https://bishboria.com), {{ page.uni }}
+* [Stuart Gale](http://bishboria.com), {{ page.uni }}
 
 
 ## Acknowledgements
