@@ -50,16 +50,16 @@ doodle poll!
 |When   | What |
 |-------|-----------------|
 | 12.00 | Lunch (provided) |
-| 13.00 | |
-| 13.30 | |
+| 13.00 | Context Constrained Computation - James Wood |
+| 13.30 | Folds, Unfolds, and Metaheuristics - Adam Barwell |
 | 14.00 | Coffee |
-| 14.30 | |
-| 15.00 | |
-| 15.30 | |
+| 14.30 | Industry experience of implementing 80+ DSLs on top of Xtext - Gregory Dyke |
+| 15.00 | Notebook Programming Considered Harmful - Jeremy Singer |
+| 15.30 | TBA - Wen Kokke |
 | 16.00 | Coffee |
-| 16.30 | |
-| 17.00 | |
-| 17.30 | |
+| 16.30 | Generating Efficient Parallel Code for Irregular Shaped Arrays - Pizzuti |
+| 17.00 | Type-Driven Development of SoC Architectures - Jan de Muijnck-Hughes |
+| 17.30 | Announcements? |
 | 17.45 | Pub |
 
 
