@@ -29,7 +29,8 @@ via the [SPLS Mailing List](https://mr1.dcs.gla.ac.uk/mailman/listinfo/spls).
 
 ## Time and place
 
-12:00--17:45, {{ page.day }} {{ page.month }}, {{ page.uni }}. Building and room to be announced.
+12:00--17:45, {{ page.day }} {{ page.month }}, {{ page.uni }}. Royal
+College building, Room 641.
 
 
 ## Registration
