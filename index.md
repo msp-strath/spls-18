@@ -55,7 +55,7 @@ doodle poll!
 | 14.00 | Coffee |
 | 14.30 | Industry experience of implementing 80+ DSLs on top of Xtext - Gregory Dyke |
 | 15.00 | Notebook Programming Considered Harmful - Jeremy Singer |
-| 15.30 | TBA - Wen Kokke |
+| 15.30 | Where the linear lambdas go - Wen Kokke |
 | 16.00 | Coffee |
 | 16.30 | Generating Efficient Parallel Code for Irregular Shaped Arrays - Pizzuti |
 | 17.00 | Type-Driven Development of SoC Architectures - Jan de Muijnck-Hughes |
