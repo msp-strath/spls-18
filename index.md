@@ -32,11 +32,6 @@ via the [SPLS Mailing List](https://mr1.dcs.gla.ac.uk/mailman/listinfo/spls).
 12:00--17:45, {{ page.day }} {{ page.month }}, {{ page.uni }}. Building and room to be announced.
 
 
-## Abstracts
-
-Please send abstracts for talks to [stuart.gale@strath.ac.uk](mailto:stuart.gale@strath.ac.uk)
-
-
 ## Registration
 
 Please add your name to the
