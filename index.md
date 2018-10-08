@@ -53,11 +53,98 @@ doodle poll!
 | 15.00 | Notebook Programming Considered Harmful - Jeremy Singer |
 | 15.30 | Where the linear lambdas go - Wen Kokke |
 | 16.00 | Coffee |
-| 16.30 | Generating Efficient Parallel Code for Irregular Shaped Arrays - Pizzuti |
+| 16.30 | Generating Efficient Parallel Code for Irregular Shaped Arrays - Federico Pizzuti |
 | 17.00 | Type-Driven Development of SoC Architectures - Jan de Muijnck-Hughes |
 | 17.30 | Announcements? |
 | 17.45 | Pub |
 
+
+## Abstracts
+
+#### Context Constrained Computation - James Wood
+
+In normal typed λ-calculi, variables may be used multiple times, in
+multiple contexts, for multiple reasons, as long as the types
+agree. The disciplines of linear types and coeffects refine this by
+tracking how variables are used. For instance, we might track how many
+times a variable is used, or whether it is used covariantly,
+contravariantly, or invariantly. Such a discipline yields a general
+framework of “context constrained computing”, where constraints on
+variables in the context tell us something interesting about the
+computation being performed. We will present work in progress on
+capturing the “intensional” properties of programs via a family of
+Kripke indexed relational semantics that refines a simple
+set-theoretic semantics of programs. The value of our approach lies in
+its generality and the range of examples covered.
+
+#### Folds, Unfolds, and Metaheuristics - Adam Barwell
+
+Metaheuristics are families of algorithms that describe how to achieve
+acceptable solutions for hard optimisation problems. Current
+approaches to the design, development, and transformation of
+metaheuristic algorithms are predominantly ad hoc. In this talk, we
+present work in progress on a constructive approach to the definition
+of metaheuristic algorithms that supports mechanical reasoning about
+well-known algorithms from metaheuristics literature. This facilitates
+a type-driven rewriting system that is able to synthesise known
+metaheuristic algorithms. Using our approach, we intend for it to be
+possible to determine whether two algorithms are equivalent in terms
+of their results, and to choose an algorithm from a set of equivalent
+algorithms for a given problem, based on a given cost model, or the
+overall fitness of results. We conjecture that it is also possible to
+generate new metaheuristic algorithms using our approach.
+
+
+#### Industry experience of implementing 80+ DSLs on top of Xtext - Gregory Dyke
+
+Avaloq is an international leading Fintech company and the creator of
+the Avaloq Banking Suite. Domain Specific Languages (DSLs) are used to
+customize the business logic of the banking suite. Xtext is an Eclipse
+project that provides rich support for the implementation of
+DSLs. Xtext is very flexible and easily extensible allowing to apply
+it way beyond simple flowchart DSLs. At Avaloq we used Xtext to
+implement tools for over 80 DSLs out of which over 50 languages
+existed long before we learned about Xtext and hence were designed
+without Xtext implementation in mind. In this talk we introduce DSL
+Developer Kit, a family of DSLs built on top of Xtext to help with
+heavy customization of parsing, indexing, scoping, validation, and
+formatting.
+
+#### Notebook Programming Considered Harmful - Jeremy Singer
+
+Millennials write their code in Jupyter Notebooks (formerly known as
+IPython). Highly evangelized benefits include (1) familiar
+browser-based coding environment, (2) interactive feedback, (3) inline
+tutorial commentary and code blocks, and (4) tight integration with
+popular libraries e.g. NumPy, matplotlib. Many coders, particularly in
+the data science domain, use Jupyter as their development platform of
+choice. At Glasgow, we have switched our first year undergraduate
+coding labs to Jupyter. _However_ Jupyter is not always a bringer of
+jollity. The notebook abstraction has several serious problems, which
+expose themselves (at best) as inconveniences to experienced hackers
+or (at worst) as conceptual misdirections to novice developers. In
+this talk, I will highlight some of these problems and propose
+potential fixups.
+
+#### Where the linear lambdas go - Wen Kokke
+
+Have you ever wondered where the lambdas live, and if you could just
+grab a random few to see if your compiler works, only to realise
+"WHOA, that's kinda hard!" Turns out that linear lambdas live in an
+even more elusive land, where none of the existing solutions – as far
+as I know – really apply. A common problem with support for those
+pesky linear types, really. This talk will drag you though some rather
+naive solutions, some existing work, and then end rather abruptly with
+a cry for help. Spoilers.
+
+
+#### Generating Efficient Parallel Code for Irregular Shaped Arrays - Federico Pizzuti
+
+TBA
+
+#### Type-Driven Development of SoC Architectures - Jan de Muijnck-Hughes
+
+TBA
 
 ## Organizers
 
