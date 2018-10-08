@@ -144,7 +144,15 @@ TBA
 
 #### Type-Driven Development of SoC Architectures - Jan de Muijnck-Hughes
 
-TBA
+The protocols that describe the interactions between IP Cores on
+System-on-a-Chip (SoC) architectures are well-documented, describing
+not only the structural properties of the physical interfaces but also
+the behaviour of the emanating signals.  However, there is a
+disconnect between the design of SoC architectures, their formal
+description, and the verification of their implementation in known
+hardware description languages. In this talk I will discuss my work in
+designing a modelling language with a substructural type-system that
+reasons about the structure of SoC Architectures.
 
 ## Organizers
 
