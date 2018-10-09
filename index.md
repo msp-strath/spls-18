@@ -140,7 +140,26 @@ a cry for help. Spoilers.
 
 #### Generating Efficient Parallel Code for Irregular Shaped Arrays - Federico Pizzuti
 
-TBA
+Data types in high-level programming languages capture semantic
+information about the program. Compilers for languages such as
+Accelerate, Futhark, Delite or Lift have shown how to exploit this
+information to produce high-performance code. While these approaches
+have the ability to handle multi-dimensional arrays, their type
+systems are currently limited to nested arrays of rectangular
+shapes. This talk presents our work on lifting some of these
+limitations and enable the representation of irregular, yet statically
+known shaped, multi-dimensional arrays at the type level. This will
+enable the Lift compiler to generate efficient code for applications
+operating on irregular-shaped structure, such as matrix-triangle
+multiplication or operations on compact representations of tree-like
+data structures. In particular, the type system is extended by
+allowing the array element type to depend, in a restricted way, on its
+position in the enclosing array. We show how existing high-level
+patterns together with a couple new primitives naturally express
+computations on such data structures. Finally, we show how classical
+low-level loop optimisations can be expressed in terms of operations
+on such irregular arrays, highlighting their utility even in
+applications that are expressible using more traditional methods.
 
 #### Type-Driven Development of SoC Architectures - Jan de Muijnck-Hughes
 
