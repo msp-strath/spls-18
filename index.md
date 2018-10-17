@@ -16,6 +16,16 @@ reg: Registration
 
 ## {{ page.uni }}, {{ page.day }} {{ page.month }} {{ page.year }}
 
+Location: Royal College building
+
+Talks: Room 641
+
+Food/coffee: Room 513
+
+
+The rooms are signposted from the main George Street entrance, and Montrose
+Street (James Weir building) entrance.
+
 ## About SPLS
 
 The [Scottish Programming Languages Seminar](http://www.dcs.gla.ac.uk/research/spls/)
@@ -47,16 +57,15 @@ doodle poll!
 |-------|-----------------|
 | 12.00 | Lunch (provided) |
 | 13.00 | Context Constrained Computation - James Wood |
-| 13.30 | Folds, Unfolds, and Metaheuristics - Adam Barwell |
+| 13.30 | Type-Driven Development of SoC Architectures - Jan de Muijnck-Hughes |
 | 14.00 | Coffee |
 | 14.30 | Industry experience of implementing 80+ DSLs on top of Xtext - Gregory Dyke |
 | 15.00 | Notebook Programming Considered Harmful - Jeremy Singer |
 | 15.30 | Where the linear lambdas go - Wen Kokke |
 | 16.00 | Coffee |
 | 16.30 | Generating Efficient Parallel Code for Irregular Shaped Arrays - Federico Pizzuti |
-| 17.00 | Type-Driven Development of SoC Architectures - Jan de Muijnck-Hughes |
-| 17.30 | Announcements? |
-| 17.45 | Pub |
+| 17.00 | Announcements? |
+| 17.15 | Pub |
 
 
 ## Abstracts
@@ -77,23 +86,17 @@ Kripke indexed relational semantics that refines a simple
 set-theoretic semantics of programs. The value of our approach lies in
 its generality and the range of examples covered.
 
-#### Folds, Unfolds, and Metaheuristics - Adam Barwell
+#### Type-Driven Development of SoC Architectures - Jan de Muijnck-Hughes
 
-Metaheuristics are families of algorithms that describe how to achieve
-acceptable solutions for hard optimisation problems. Current
-approaches to the design, development, and transformation of
-metaheuristic algorithms are predominantly ad hoc. In this talk, we
-present work in progress on a constructive approach to the definition
-of metaheuristic algorithms that supports mechanical reasoning about
-well-known algorithms from metaheuristics literature. This facilitates
-a type-driven rewriting system that is able to synthesise known
-metaheuristic algorithms. Using our approach, we intend for it to be
-possible to determine whether two algorithms are equivalent in terms
-of their results, and to choose an algorithm from a set of equivalent
-algorithms for a given problem, based on a given cost model, or the
-overall fitness of results. We conjecture that it is also possible to
-generate new metaheuristic algorithms using our approach.
-
+The protocols that describe the interactions between IP Cores on
+System-on-a-Chip (SoC) architectures are well-documented, describing
+not only the structural properties of the physical interfaces but also
+the behaviour of the emanating signals.  However, there is a
+disconnect between the design of SoC architectures, their formal
+description, and the verification of their implementation in known
+hardware description languages. In this talk I will discuss my work in
+designing a modelling language with a substructural type-system that
+reasons about the structure of SoC Architectures.
 
 #### Industry experience of implementing 80+ DSLs on top of Xtext - Gregory Dyke
 
@@ -137,7 +140,6 @@ pesky linear types, really. This talk will drag you though some rather
 naive solutions, some existing work, and then end rather abruptly with
 a cry for help. Spoilers.
 
-
 #### Generating Efficient Parallel Code for Irregular Shaped Arrays - Federico Pizzuti
 
 Data types in high-level programming languages capture semantic
@@ -161,17 +163,24 @@ low-level loop optimisations can be expressed in terms of operations
 on such irregular arrays, highlighting their utility even in
 applications that are expressible using more traditional methods.
 
-#### Type-Driven Development of SoC Architectures - Jan de Muijnck-Hughes
 
-The protocols that describe the interactions between IP Cores on
-System-on-a-Chip (SoC) architectures are well-documented, describing
-not only the structural properties of the physical interfaces but also
-the behaviour of the emanating signals.  However, there is a
-disconnect between the design of SoC architectures, their formal
-description, and the verification of their implementation in known
-hardware description languages. In this talk I will discuss my work in
-designing a modelling language with a substructural type-system that
-reasons about the structure of SoC Architectures.
+
+#### Cancelled Talk - Folds, Unfolds, and Metaheuristics - Adam Barwell
+
+Metaheuristics are families of algorithms that describe how to achieve
+acceptable solutions for hard optimisation problems. Current
+approaches to the design, development, and transformation of
+metaheuristic algorithms are predominantly ad hoc. In this talk, we
+present work in progress on a constructive approach to the definition
+of metaheuristic algorithms that supports mechanical reasoning about
+well-known algorithms from metaheuristics literature. This facilitates
+a type-driven rewriting system that is able to synthesise known
+metaheuristic algorithms. Using our approach, we intend for it to be
+possible to determine whether two algorithms are equivalent in terms
+of their results, and to choose an algorithm from a set of equivalent
+algorithms for a given problem, based on a given cost model, or the
+overall fitness of results. We conjecture that it is also possible to
+generate new metaheuristic algorithms using our approach.
 
 ## Organizers
 
